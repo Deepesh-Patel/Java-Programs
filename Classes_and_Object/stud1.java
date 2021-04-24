@@ -22,7 +22,7 @@ class stud1
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the Name: ");
 		String name = s.nextLine();
-		System.out.println("Enter thr Roll no:");
+		System.out.println("Enter the Roll no:");
 		int rollno = s.nextInt();
 		se.insert(rollno, name);
 		se.display();
